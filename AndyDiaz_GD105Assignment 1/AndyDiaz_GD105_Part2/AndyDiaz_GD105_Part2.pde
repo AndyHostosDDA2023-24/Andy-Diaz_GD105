@@ -1,17 +1,29 @@
+// create the document & size & runs 1 time 
 void setup(){
-   size (1020,1020);
-   background (0, 128, 0);
-   
+ // makes the size of the document big or small
+size (1000,1000);
+
+
 }
 
-
+//make the document runs multiple times
 void draw (){
-  
+  //does not give the stroke 
   noStroke();
-  fill (0, 0, 255);
+  // gives color
+  fill (#FFAE42);
+  //makes the square
+  //(x, y, size)
   square( 150, 150, 700);
-  
-  fill (#FFFF00);
-  square( 300, 300, 400);
-  
+//#0000FF
+stroke(#FFFFFF);
+
+square( 200, 220, 600);
+noStroke();
+fill (#ff7400);
+square( 270, 350, 450);
+fill (#ff4d00);
+square( 340, 470, 300);
+
+ // square(fill)
 }
